@@ -1,5 +1,5 @@
 #Base Image of Python pre-installed
-FROM python-3.11
+FROM python:3.11
 
 # Install additional system dependencies
 RUN apt-get update && \
